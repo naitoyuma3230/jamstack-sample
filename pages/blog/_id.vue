@@ -4,6 +4,7 @@
     <v-card-title> {{ title }} </v-card-title>
 
     <v-card-subtitle> {{ createAt }} </v-card-subtitle>
+    <v-card-subtitle> {{ discription }} </v-card-subtitle>
 
     <v-card-text>
       {{ body }}
