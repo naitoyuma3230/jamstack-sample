@@ -15,7 +15,7 @@
 
           <v-card-actions>
             <v-spacer></v-spacer>
-            <v-btn>記事詳細</v-btn>
+            <v-btn :to="`/blog/${blogItem.id}`">記事詳細</v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
